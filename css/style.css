@@ -11,6 +11,13 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+
+    /* estas lineas vienen del tutorial */
+    overscroll-behavior-y: contain; /* para que no permita en android hacer refresh hacia abajo */
+    /* trucos para ios. No seleccionar, no highlight, no ventanas callout */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
